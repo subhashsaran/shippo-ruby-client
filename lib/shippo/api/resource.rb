@@ -19,8 +19,6 @@ module Shippo
       include Enumerable
       extend Forwardable
 
-      disable_warnings
-
       def self.object_properties
         Shippo::API::ApiObject::PROPS
       end
