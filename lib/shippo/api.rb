@@ -14,7 +14,7 @@ module Shippo
     @base     = 'https://api.goshippo.com'
     @version  = ''
     @token    = ''
-    @debug    = Integer(ENV['SHIPPO_DEBUG'] || 0) > 0 ? true : false
+    @debug    = true
     @warnings = true
 
     class << self
